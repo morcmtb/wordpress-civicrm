@@ -1,4 +1,6 @@
 .DS_Store
 
+/db_data
 /tmp
 /plugins
+/themes
