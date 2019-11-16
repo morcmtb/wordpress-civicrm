@@ -1,0 +1,11 @@
+{
+  "name": "wordpress-civicrm",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "aron.b@morcmtb.org",
+  "license": "MIT",
+  "scripts": {
+    "docker:up": "docker-compose --file docker-compose.yml up --build --detach",
+    "docker:down": "docker-compose --file docker-compose.yml down"
+  }
+}
